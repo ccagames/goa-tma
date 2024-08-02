@@ -1,8 +1,8 @@
-import { Section, Cell, Image, List } from '@telegram-apps/telegram-ui';
+import { Section, Cell, List } from '@telegram-apps/telegram-ui';
 
 import { Link } from '@/components/Link/Link.jsx';
 
-import tonSvg from './ton.svg';
+// import tonSvg from './ton.svg';
 
 import './IndexPage.css';
 
@@ -12,7 +12,7 @@ import './IndexPage.css';
 export function IndexPage() {
   return (
     <List>
-      <Section
+      {/* <Section
         header="Features"
         footer="You can use these pages to learn more about features, provided by Telegram Mini Apps and other useful projects"
       >
@@ -24,7 +24,7 @@ export function IndexPage() {
             TON Connect
           </Cell>
         </Link>
-      </Section>
+      </Section> */}
       <Section
         header="Application Launch Data"
         footer="These pages help developer to learn more about current launch information"
